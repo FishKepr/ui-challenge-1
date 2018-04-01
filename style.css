@@ -9,7 +9,6 @@ main ul li {
  }
 
 main div {
-    background-color: lightgrey; 
     border: solid black;
     border-width: 1px;
     box-sizing: border-box;
@@ -17,11 +16,13 @@ main div {
 }
 
 #group-1 {
+    background-color: lightblue; 
     width: 480px;
     height: 75px;
     line-height: 75px;
 }
 #area-b {
+    background-color: lightcoral; 
     width: 480px;
     height: 150px;
     line-height: 150px;
@@ -31,13 +32,33 @@ main div {
     height: 125px;
     line-height: 125px;
 }
+#area-c {
+    background-color: purple; 
+}
+#area-d {
+    background-color: orange; 
+}
 
 #group-5 div {
     width: 240px;
     height: 250px;
     line-height: 250px;
 }
+#area-e {
+    background-color: green; 
+}
+#area-f {
+    background-color: yellow; 
+}
+#area-g {
+    background-color: blue; 
+}
+#area-h {
+    background-color: pink; 
+}
+
 #area-i {
+    background-color: chartreuse; 
     width: 480px;
     height: 80px;
     line-height: 80px;
@@ -46,7 +67,6 @@ main div {
 @media only screen and (min-width: 800px) {
     main {
         width: 960px;
-        margin: 30px;
      }
      #group-1 {
         width: 960px;
